@@ -1,0 +1,49 @@
+.blog-list-content {
+    padding: 1rem;
+}
+
+.blog-list-content:hover {
+    background-color: antiquewhite;
+    padding: 1.5rem;
+    transition: 0.5s;
+}
+
+.myBlog-wrapper h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.dlt-btn {
+    margin-top: 1rem;
+}
+
+.create-blog,
+.user-signin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.user-signin-wrapper input,
+.create-blog-wrapper input,
+textarea,
+option {
+    width: 500px;
+    display: block;
+    padding: 0.4rem;
+    margin: 0.5rem 0;
+
+}
+
+.error-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-wrapper h1 {
+    font-size: 10rem;
+}

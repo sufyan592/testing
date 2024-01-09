@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ============================= Button Style ============================= */
+
+.btn-primary {
+  background-color: #de961a;
+  border: 1px solid #de961a;
+  border: 1px solid #de961a;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  transition: .2s;
+}
+
+.btn-primary:hover {
+  border: 1px solid #de961a;
+  border: 1px solid #de961a;
+  background-color: transparent;
+  color: #de961a;
+}
+
+/* ============================= Section Style ============================= */
+
+.section-spacing {
+  max-width: 80%;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+
+/* ============================= Anchor Style ============================= */
+
+a {
+  text-decoration: none;
+}
+
+.newDataa {
+  text-decoration: none;
+}

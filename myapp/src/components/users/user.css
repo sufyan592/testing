@@ -1,0 +1,30 @@
+.user-wrapper h1 {
+    text-align: center;
+
+}
+
+.user-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-wrapper ul li {
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background: bisque;
+}
+
+.user-wrapper button {
+    margin-left: 0.5rem;
+}
+
+.user-wrapper input {
+    margin-left: 0.5rem;
+}
+
+.searchWrapper {
+    margin-top: 1rem;
+}

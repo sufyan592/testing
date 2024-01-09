@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "mysql2": "^3.6.5",
+    "mysql2-promise": "^0.1.4",
+    "validator": "^13.11.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node userSeeders.js",
+    "dev": "nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

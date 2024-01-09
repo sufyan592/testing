@@ -1,0 +1,30 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li {
+    list-style-type: none;
+    padding: 0 0.8rem;
+    transition: 0.5s;
+}
+
+.nav {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-right a.active {
+    color: #de961a;
+    border-bottom: 1px solid #de961a;
+}
+
+.nav-right a:hover {
+    color: #de961a;
+    border-bottom: 1px solid #de961a;
+}
